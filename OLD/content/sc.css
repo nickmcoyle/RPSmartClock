@@ -1,0 +1,143 @@
+ .container-fluid {
+ //background-color: rgba(0, 0, 0, 0.92);    
+background-color: #212227;
+     height:2000px;
+}
+/* this makes the scrollbars disappear on chromium kiosk mode 	*/
+html{
+overflow:hidden;
+}
+
+#appContainer {    
+    font-size:1.1em; 
+        
+}
+
+#timeWeatherWrapper {
+    background-color: #676767;    
+    border: 10px solid #676767;
+    border-top: 20px solid #676767;
+    border-bottom: 20px solid #676767;
+    border-radius: 10px;
+    color: white;
+}
+
+#time {
+    font-size: 1.6em;
+    position:relative;
+ top:4px;
+}
+.ampm {
+font-size: 0.4em;
+position: relative;
+top:-0.5em;
+
+}
+#date {
+ position:relative;
+ top:-19px;
+ font-size: 0.6em;   
+}
+#currWeather {
+//margin-top: 2%;
+font-size: 1.3em;
+}
+#currTemp {
+position:relative;
+    top: -6px;
+font-size:2em;
+}
+#currTempExtended {
+    position:relative;
+    top: 7px;
+font-size: 0.5em;
+display: inline-block;
+}
+.currPop {
+font-size: 0.9em;  
+}
+.pop {
+ font-size: 0.9em;  
+position: relative;
+top:-1.6em; 
+}
+.rainDropIcon {
+position: relative;
+top:-1.6em;
+}
+.weekdayForeCast {
+    border-bottom: 1px dotted #000;
+ // border-bottom: 1px dotted #fff;
+    width: 100%;
+    display: block;
+}
+.weekendForeCast {     
+    //border-bottom: 1px dotted #c03;
+   border-bottom: 1px dotted #F6A71C;
+    width: 100%;
+    display: block;
+}
+#foreCastRow {
+left: 4%;
+position:relative;
+font-size: 0.9em;
+
+}
+#foreCast1 {
+max-width: 27%;
+}
+#foreCast2 {
+    max-width: 27%;
+margin-left: 5%;
+}
+#foreCast3 {
+    max-width: 27%;
+margin-left: 5%;
+}
+.highLowTemps {
+position:relative;
+top: -2.4em;
+left: 3.5em;
+}
+h1 {
+font-size:1em;text-align:center
+}
+.vertical-align {
+    display: inline-block;
+    position:relative;    
+    top:-2px;
+    margin-left:1px;
+    margin-right:1px;
+}
+#busWrapper {   
+position:relative;
+left:1%;
+	background-color: #212227;
+	color: white;  
+    font-size: 0.9em;
+    
+}
+.busHeader {     
+    border-bottom: 1px dotted #fff;
+    width: 55%;
+    display: inline-block;
+    font-size: 0.89em;
+}
+.busTime {
+ position:relative;
+ left: 20%;
+ top: -0.7em;
+}
+
+i {
+    margin:0px;
+}
+.white, .white a {
+  color: white;
+}
+#offBtn {
+background-color: #212227;
+position: absolute;
+bottom:0;
+right:0;
+}

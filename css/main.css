@@ -1,0 +1,109 @@
+ <style type="text/css">@media screen and (max-width: 480px) {
+ h4 {
+     width: 100%;
+ }
+ }
+ @media screen and (min-width: 480px) and (max-width: 980px){
+  h4 {
+     width: 100%;
+ }
+ }
+ 
+ @media screen and (min-width: 980px) {
+  h4 {
+     width: 70%;
+ }
+ }
+ 
+ 
+ body { 
+	background-color: #212227;
+}
+
+/* this makes the scrollbars disappear on chromium kiosk mode 	*/
+html{
+<!-- overflow:hidden; -->
+}
+
+#appContainer {    
+    font-size:1.1em;         
+}
+
+#timeWeatherContainer { 
+	margin-top:7em;
+    color: white;
+}
+#dateTimeContainer {
+	background-color: #2885C7;
+	border-top: 2em solid #2885C7;
+	border-bottom: 2em solid #2885C7;
+	left: 15px;
+}
+#currentTime {
+    font-size: 1.6em;    
+}
+.ampm {
+	font-size: 0.5em;
+	position: relative;
+	top: -0.4em;
+	left: 0.3em;
+}
+#currentContainer {
+	position:relative;
+	top: 0.9em;
+}
+#currentLocation {
+	font-size: 1.4em;
+	position:relative;
+	top: -0.6em;
+}
+#currentWeather {
+	font-size: 1.3em;
+}
+#currentTemp {
+	font-size:1.9em;
+}
+#currentHighLow {
+	font-size: 1em;
+	position: relative;
+	top: -0.9em;
+}
+#currentPOP{
+	font-size: 0.9em;
+	position:relative;
+	left: 2em;
+	top: -1.4em;
+}
+.pop {
+	font-size: 0.9em;
+	position:relative;
+	left: 3.5em;	
+}
+h4 {    
+	border-bottom: 1px dotted white;
+    display: block;
+}
+h4.Sat, h4.Sun {         
+    border-bottom: 1px dotted #F6A71C; 
+}
+#forecastRow {
+	font-size: 0.9em;	
+}
+.forecastHighLow {
+	position:relative;
+	top: -1.4em;
+	left: 0.5em;
+}
+
+#offBtn {
+	background-color: #212227;
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+#refreshBtn {
+	background-color: #212227;
+	position: absolute;
+	bottom:0;
+	right:5em;
+}
