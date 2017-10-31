@@ -94,7 +94,12 @@ h4.Sat, h4.Sun {
 	top: -1.4em;
 	left: 0.5em;
 }
-
+#closeBtn {
+	background-color: #212227;
+	position: absolute;
+	bottom:0;
+	right:10em;
+}
 #offBtn {
 	background-color: #212227;
 	position: absolute;

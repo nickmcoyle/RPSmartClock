@@ -71,4 +71,13 @@ app.controller("MainController", ["$scope", "$http", "$interval", function($scop
 		window.location.reload();
 	};
 	
+	$scope.closeBrowser = function() {		
+	$http({
+		method: 'POST',				
+		url: 'scCloseBrowser.php'
+	}).then(function successCallback(response) {
+	
+	});
+	};
+	
 }]);
